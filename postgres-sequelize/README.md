@@ -48,6 +48,8 @@
 
 - npx sequelize-cli model:generate --name Location --attributes city:string,region:string,country:string
 
+- (Kalo Lupa Tambahkan Atribute) npx sequelize-cli migration:generate --name add-price-type-stock-to-items
+
 5. Migrate table
 
 - npx sequelize-cli db:migrate
